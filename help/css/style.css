@@ -447,7 +447,7 @@ code, kbd, pre, samp, .editor, .html-pad, .preformatted {
     padding-left: 40px;
 }
 
-/* syntax highlighting for the "show generated HTML" tags */
+/* syntax highlighting for the "Montrer le résultat en HTML" tags */
 .hljs-tag {
     color: maroon !important;
     font-weight: normal !important;

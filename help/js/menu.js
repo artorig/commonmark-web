@@ -16,37 +16,37 @@ $(document).ready(function() {
 			<li> \
 				<a href="02-emphasis.html" class="noselect {{? it.section == 1 }}is-selected{{?}}"> \
 					<span class="cd-dot"></span> \
-					<span class="cd-label">Emphasis</span> \
+					<span class="cd-label">Emphase</span> \
 				</a> \
 			</li> \
 			<li> \
 				<a href="03-paragraphs.html" class="noselect {{? it.section == 2 }}is-selected{{?}}"> \
 					<span class="cd-dot"></span> \
-					<span class="cd-label">Paragraphs</span> \
+					<span class="cd-label">Paragraphes</span> \
 				</a> \
 			</li> \
 			<li> \
 				<a href="04-headings.html" class="noselect {{? it.section == 3 }}is-selected{{?}}"> \
 					<span class="cd-dot"></span> \
-					<span class="cd-label">Headings</span> \
+					<span class="cd-label">Titres</span> \
 				</a> \
 			</li> \
 			<li> \
 				<a href="05-blockquotes.html" class="noselect {{? it.section == 4 }}is-selected{{?}}"> \
 					<span class="cd-dot"></span> \
-					<span class="cd-label">Blockquotes</span> \
+					<span class="cd-label">Blocs de citation</span> \
 				</a> \
 			</li> \
 			<li> \
 				<a href="06-lists.html" class="noselect {{? it.section == 5 }}is-selected{{?}}"> \
 					<span class="cd-dot"></span> \
-					<span class="cd-label">Lists</span> \
+					<span class="cd-label">Listes</span> \
 				</a> \
 			</li> \
 			<li> \
 				<a href="07-links.html" class="noselect {{? it.section == 6 }}is-selected{{?}}"> \
 					<span class="cd-dot"></span> \
-					<span class="cd-label">Links</span> \
+					<span class="cd-label">Liens</span> \
 				</a> \
 			</li> \
 			<li> \
@@ -64,13 +64,13 @@ $(document).ready(function() {
 			<li> \
 				<a href="10-nestedLists.html" class="noselect {{? it.section == 9 }}is-selected{{?}}"> \
 					<span class="cd-dot"></span> \
-					<span class="cd-label">Nested Lists</span> \
+					<span class="cd-label">Listes imbriquées</span> \
 				</a> \
 			</li> \
 			<li> \
 				<a href="99-end.html" class="noselect {{? it.section == 10 }}is-selected{{?}}"> \
 					<span class="cd-dot"></span> \
-					<span class="cd-label">The End</span> \
+					<span class="cd-label">Fin</span> \
 				</a> \
 			</li> \
 		</ul> \

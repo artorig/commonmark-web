@@ -200,23 +200,22 @@ $(document).ready(function() {
     // vary the success alert text so it doesn't get boring
     function randomSuccessTitle() {
         var a = [
-            'Good Job!',
-            'Fantastic!',
-            'Well Done!',
-            'Excellent!',
-            'Perfect!',
-            'Super!', 
-            'Just Right!',
-            'You Did It!',
-            'Great Work!',
-            'Stellar!',
-            'Yes!',
-            'You Got It!',
-            'That’s Right!',
-            'That’s It!',
-            'Awesome!',
-            'Superb!',
-            'Outstanding!'
+			'Bon travail !',
+			'Fantastique !',
+			'Bien joué !',
+			'Excellent !',
+			'Parfait !',
+			'Super !',
+			'Tout juste !',
+			'Impeccable !',
+			'Génial !',
+			'Oui !',
+			'C’est réussi !',
+			'Chapeau !',
+			'C’est bien ça !',
+			'Impressionnant !',
+			'Superbe !',
+			'Exceptionnel !'
         ]
         return a[Math.floor(Math.random() * a.length)];
     }	
@@ -242,7 +241,7 @@ $(document).ready(function() {
 		var html = md.render(editortext);
 		$("#" + RENDER_PAD_ID_PREFIX + exerciseId).html("").html(html);        
 		
-        // if 'Show Generated HTML' is checked, populate that
+        // if 'Montrer le résultat en HTML' is checked, populate that
 		var chk = $("#" + CK_SHOW_HTML_ID_PREFIX + exerciseId)[0];
 		if(typeof(chk) !== 'undefined' && chk.checked) {
 			var htmlSH = hljs.highlightAuto(html, ["html"]).value.replace(/(?:\r\n|\r|\n)/g, '<br />');
